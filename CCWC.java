@@ -4,7 +4,7 @@ import java.io.FileReader;
 import java.util.StringTokenizer;
 public class CCWC { 
     public static void main(String[] args) {
-        if (args.length != 3 || !args[0].equals("-c") && !args[0].equals("-l") && !args[0].equals("-w")) {
+        if (args.length == 0) {
             System.out.println("Usage: java CCWC [-c | -l | -w] <file_path>");
             System.exit(1);
         }
